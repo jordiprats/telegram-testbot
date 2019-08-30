@@ -1,5 +1,7 @@
 # telegram-testbot
 
+![demo](demo_per.jpg "demo PER")
+
 ## config failed
 
 testbot.config:
