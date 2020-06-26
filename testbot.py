@@ -1,15 +1,15 @@
+import telegram
 import sqlite3
 import os.path
 import logging
 import glob
-import telegram
 import sys
 
+from telegram.ext import Updater, CommandHandler, CallbackQueryHandler
+from telegram import InlineKeyboardButton, InlineKeyboardMarkup
+from ConfigParser import SafeConfigParser
 from tabulate import tabulate
 from sqlite3 import Error
-from telegram import InlineKeyboardButton, InlineKeyboardMarkup
-from telegram.ext import Updater, CommandHandler, CallbackQueryHandler
-from ConfigParser import SafeConfigParser
 from emoji import emojize
 
 #emojis: https://www.webpagefx.com/tools/emoji-cheat-sheet/
